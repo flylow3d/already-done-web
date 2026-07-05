@@ -54,7 +54,9 @@ header.site {
   display: flex; align-items: center; justify-content: space-between;
   gap: 1rem; padding: 0.9rem 1.5rem; max-width: 1220px; margin: 0 auto; flex-wrap: wrap;
 }
-.brand { text-decoration: none; display: flex; align-items: baseline; gap: 0.55rem; }
+.brand { text-decoration: none; display: flex; align-items: center; gap: 0.65rem; }
+.brand .logo { width: 46px; height: 46px; flex-shrink: 0; }
+.brand .co { align-self: flex-end; padding-bottom: 0.3rem; }
 .brand .word {
   font-family: 'Fraunces', serif;
   font-weight: 900; font-size: 1.3rem; color: var(--text);
