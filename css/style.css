@@ -296,7 +296,7 @@ footer.site {
   background: var(--bg);
   padding: 2.2rem 0 2.6rem; color: var(--muted); font-size: 0.92rem;
 }
-.footer-mark { width: min(240px, 55vw); margin: 0.6rem auto 2.2rem; }
+.footer-mark { width: min(120px, 40vw); margin: 0.4rem auto 1.8rem; }
 footer.site .row { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; align-items: center; }
 footer.site a { color: var(--muted); text-decoration: none; }
 footer.site a:hover { color: var(--green); }
