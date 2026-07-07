@@ -22,9 +22,13 @@ Business model (see `..\Website Business\` for private pricing docs):
 - Contact shown on site: flylow3d@gmail.com (no phone yet)
 - Voice: confident, a little cheeky, zero agency jargon. The name is the
   pitch — every headline should sound like the work is finished because it is.
-- Design: bold & modern — near-black background, off-white type, one hot
-  accent (green = done/checkmark), huge display headlines (Space Grotesk),
-  "APPROVED/ALREADY DONE" rubber-stamp motif done in CSS.
+- Design: warm cream paper, Fraunces serif, sign-painter green + stamp red,
+  red rubber-stamp motif done in CSS. (Original dark theme replaced July 2026.)
+- Logo: green diamond with inscribed circle, corner notches, checkmark center
+  (`assets/logo-diamond.png`, master). The geometry deliberately echoes the
+  vintage **Greenlee Bros. trademark** — the user's family connection (see
+  mrgreenlee.com). Previous round stamp logo kept as backup:
+  `assets/logo-v1-circle.png`.
 
 ## Site structure
 
