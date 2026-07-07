@@ -1,5 +1,11 @@
 # It's Already Done Web Co — the business's own website
 
+> **⚠️ Building a NEW client site? STOP and read the playbook first:**
+> `C:\Users\flylo\Documents\Website Business\PLAYBOOK-building-client-sites.md`
+> It contains the full pipeline (research → design → imagery → verify → ship →
+> portfolio → pitch sheet), the quality bar, business rules, and every pitfall
+> already hit once. Reusable tools live in `Website Business\tools\`.
+
 ## What this is
 
 The service website for the user's website-building business: **It's Already
