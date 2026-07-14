@@ -50,7 +50,13 @@ Single killer landing page, no build step, GitHub Pages:
   screenshots of the Nolt's site via --ref)
 - `print/` — business card: `business-card.html` (source of truth; edit +
   re-render via headless Chrome), `already-done-business-card-PRINT.pdf`
-  (3.5×2 trim, ⅛" bleed, page 1 front / page 2 back), `preview.png`
+  (3.5×2 trim, ⅛" bleed, page 1 front / page 2 back), `preview.png`;
+  `print/Payment/checkout-link-qr-code.png` — Square checkout QR
+  (https://square.link/u/mhpktGnd), also copied to `..\Website Business\qr-payment.png`
+  and embedded in every pitch sheet
+- `Files for Nolts/` — assembled client packet (pitch + quick reference +
+  agreement merged to one PDF). Sources live in `..\Website Business\`;
+  re-render there and re-merge with pdf-lib to update
 
 ## Image generation
 
