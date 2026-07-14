@@ -106,11 +106,10 @@ body { background: #888; }
 .back .contact .web { color: var(--green); font-weight: 800; }
 .back .place { font-size: 7.5pt; color: var(--muted); }
 
-/* QR code to the site */
-.qr {
-  position: absolute; right: 0.30in; top: 0.72in;
-  width: 0.65in; height: 0.65in;
-}
+/* QR code to the site — same row as the contact lines, stretched to their height */
+.row-mid { display: flex; justify-content: space-between; align-items: center; }
+/* height matches the 3-line contact block: 3 x 9.5pt x 1.62 line-height */
+.qr { width: 0.641in; height: 0.641in; }
 
 /* rubber stamp */
 .stamp {
@@ -150,14 +149,16 @@ body { background: #888; }
       <div class="name">Joe Smith</div>
       <div class="role">Websites, built before you pay</div>
     </div>
-    <div class="contact">
-      <div><span class="label">Call</span> (260) 449-1236</div>
-      <div><span class="label">Email</span> joe@alreadydoneweb.com</div>
-      <div><span class="label">See</span> <span class="web">alreadydoneweb.com</span></div>
+    <div class="row-mid">
+      <div class="contact">
+        <div><span class="label">Call</span> (260) 449-1236</div>
+        <div><span class="label">Email</span> joe@alreadydoneweb.com</div>
+        <div><span class="label">See</span> <span class="web">alreadydoneweb.com</span></div>
+      </div>
+      <img class="qr" src="qr-alreadydoneweb.png" alt="">
     </div>
     <div class="place">Fort Wayne &amp; Northeast Indiana</div>
   </div>
-  <img class="qr" src="qr-alreadydoneweb.png" alt="">
   <div class="stamp">Already Done <small>✓ approved</small></div>
 </div>
 
