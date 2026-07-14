@@ -15,9 +15,12 @@ service and the proof of it (it has to look killer, since it sells design).
 
 Business model (see `..\Website Business\` for private pricing docs):
 - We build the site from public info, unprompted, and show it to the owner
-- $399 one-time setup when they say yes + $99/month hosting & maintenance
+- $99/month, no setup fee — hosting, domain & maintenance (model changed July
+  2026; there is no $399 setup fee anymore)
 - Updates requested by text/email, live within 2 business days
-- Month-to-month, cancel anytime, client owns domain and content
+- Month-to-month, cancel anytime (service runs through the end of the paid
+  month); client owns domain & content from day one, site source files free
+  after six months of service (buyout quote before then)
 - First client/proof: Nolt's Marketplace (repo `nolts-marketplace`,
   live at https://flylow3d.github.io/nolts-marketplace/)
 
