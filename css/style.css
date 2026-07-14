@@ -157,7 +157,7 @@ section.block { padding: 5.2rem 0; }
 .block .sub { color: var(--muted); max-width: 60ch; font-size: 1.1rem; margin-bottom: 2.4rem; }
 
 /* steps */
-.steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.2rem; }
+.steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 1.2rem; }
 .step {
   background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius);
   padding: 1.8rem 1.6rem 1.7rem; position: relative; overflow: hidden;
