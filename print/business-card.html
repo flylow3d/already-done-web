@@ -106,6 +106,12 @@ body { background: #888; }
 .back .contact .web { color: var(--green); font-weight: 800; }
 .back .place { font-size: 7.5pt; color: var(--muted); }
 
+/* QR code to the site */
+.qr {
+  position: absolute; right: 0.30in; top: 0.72in;
+  width: 0.65in; height: 0.65in;
+}
+
 /* rubber stamp */
 .stamp {
   position: absolute; right: 0.26in; bottom: 0.26in;
@@ -149,8 +155,9 @@ body { background: #888; }
       <div><span class="label">Email</span> joe@alreadydoneweb.com</div>
       <div><span class="label">See</span> <span class="web">alreadydoneweb.com</span></div>
     </div>
-    <div class="place">Fort Wayne &amp; northeast Indiana</div>
+    <div class="place">Fort Wayne &amp; Northeast Indiana</div>
   </div>
+  <img class="qr" src="qr-alreadydoneweb.png" alt="">
   <div class="stamp">Already Done <small>✓ approved</small></div>
 </div>
 
