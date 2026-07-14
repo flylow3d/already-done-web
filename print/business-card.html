@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>It's Already Done Web Co. — business card (print)</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,500;1,9..144,700&family=Nunito+Sans:ital,wght@0,400;0,600;0,700;0,800&display=swap');
+
+/* US standard card: trim 3.5in x 2in, 1/16in bleed each side -> 3.625 x 2.125 */
+@page { size: 3.625in 2.125in; margin: 0; }
+
+:root {
+  --bg: #faf6ee;
+  --bg-2: #f3edde;
+  --panel: #fffdf7;
+  --line: #e6dcc6;
+  --text: #35291c;
+  --muted: #7c6e5a;
+  --green: #3e6b4f;
+  --stamp-red: #b5402f;
+  --honey: #c98a2d;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: #888; }
+
+.card {
+  width: 3.625in; height: 2.125in;
+  position: relative; overflow: hidden;
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Nunito Sans', sans-serif;
+  page-break-after: always;
+}
+/* safe zone: keep content 3/16in from bleed edge */
+
+@media screen {
+  body { display: flex; flex-direction: column; align-items: center; gap: 24px; padding: 24px; }
+  .card { box-shadow: 0 4px 18px rgba(0,0,0,.35); }
+}
+@media print {
+  body { background: none; display: block; padding: 0; }
+  .card { box-shadow: none; }
+}
+
+/* ---------- shared paper grain ---------- */
+.card::before {
+  content: ""; position: absolute; inset: 0;
+  background:
+    radial-gradient(ellipse at 20% 0%, rgba(201,138,45,.05), transparent 55%),
+    radial-gradient(ellipse at 90% 100%, rgba(62,107,79,.06), transparent 55%);
+  pointer-events: none;
+}
+
+/* ---------- FRONT ---------- */
+.front { display: flex; align-items: center; justify-content: center; }
+.front .inner { text-align: center; position: relative; }
+.front img.mark { width: 0.72in; height: auto; display: block; margin: 0 auto 0.09in; }
+.front .wordmark {
+  font-family: 'Fraunces', serif; font-weight: 900;
+  font-size: 21pt; line-height: 1; letter-spacing: -0.01em;
+  color: var(--green);
+}
+.front .webco {
+  font-family: 'Nunito Sans', sans-serif; font-weight: 800;
+  font-size: 7.5pt; letter-spacing: 0.42em; text-indent: 0.42em;
+  color: var(--stamp-red); text-transform: uppercase;
+  margin-top: 0.055in;
+}
+.front .rule {
+  width: 0.55in; height: 1px; background: var(--line);
+  margin: 0.075in auto;
+}
+.front .tag {
+  font-family: 'Fraunces', serif; font-style: italic; font-weight: 500;
+  font-size: 9pt; color: var(--muted);
+}
+
+/* corner ticks, like a stamp/plate registration */
+.tick { position: absolute; width: 0.14in; height: 0.14in; border-color: var(--line); border-style: solid; border-width: 0; }
+.tick.tl { top: 0.22in; left: 0.24in; border-top-width: 1.5px; border-left-width: 1.5px; }
+.tick.tr { top: 0.22in; right: 0.24in; border-top-width: 1.5px; border-right-width: 1.5px; }
+.tick.bl { bottom: 0.22in; left: 0.24in; border-bottom-width: 1.5px; border-left-width: 1.5px; }
+.tick.br { bottom: 0.22in; right: 0.24in; border-bottom-width: 1.5px; border-right-width: 1.5px; }
+
+/* ---------- BACK ---------- */
+.back { }
+.back .inner {
+  position: absolute; inset: 0.28in 0.30in;
+  display: flex; flex-direction: column; justify-content: space-between;
+}
+.back .name {
+  font-family: 'Fraunces', serif; font-weight: 700;
+  font-size: 15.5pt; color: var(--text); line-height: 1;
+}
+.back .role {
+  font-size: 7.5pt; font-weight: 700; letter-spacing: 0.18em;
+  text-transform: uppercase; color: var(--green); margin-top: 0.05in;
+}
+.back .contact { font-size: 9.5pt; font-weight: 600; line-height: 1.62; max-width: 2.35in; }
+.back .contact .label {
+  display: inline-block; width: 0.42in;
+  font-size: 6.5pt; font-weight: 800; letter-spacing: 0.14em;
+  text-transform: uppercase; color: var(--muted);
+}
+.back .contact .web { color: var(--green); font-weight: 800; }
+.back .place { font-size: 7.5pt; color: var(--muted); }
+
+/* rubber stamp */
+.stamp {
+  position: absolute; right: 0.26in; bottom: 0.26in;
+  transform: rotate(-8deg);
+  text-align: center;
+  border: 1.5px solid var(--stamp-red); border-radius: 3px;
+  color: var(--stamp-red);
+  font-family: 'Nunito Sans', sans-serif; font-weight: 800;
+  font-size: 7pt; letter-spacing: 0.12em; text-transform: uppercase;
+  padding: 0.035in 0.065in;
+  opacity: 0.82;
+  -webkit-mask-image: radial-gradient(ellipse at 42% 55%, black 58%, rgba(0,0,0,.72) 100%);
+}
+.stamp small { display: block; font-size: 5pt; letter-spacing: 0.18em; opacity: .85; }
+</style>
+</head>
+<body>
+
+<!-- FRONT -->
+<div class="card front">
+  <span class="tick tl"></span><span class="tick tr"></span>
+  <span class="tick bl"></span><span class="tick br"></span>
+  <div class="inner">
+    <img class="mark" src="../assets/logo-diamond-t.png" alt="">
+    <div class="wordmark">It&rsquo;s Already Done</div>
+    <div class="webco">Web Co.</div>
+    <div class="rule"></div>
+    <div class="tag">Your website? It&rsquo;s already done.</div>
+  </div>
+</div>
+
+<!-- BACK -->
+<div class="card back">
+  <div class="inner">
+    <div>
+      <div class="name">Joe Smith</div>
+      <div class="role">Websites, built before you pay</div>
+    </div>
+    <div class="contact">
+      <div><span class="label">Call</span> (260) 449-1236</div>
+      <div><span class="label">Email</span> joe@alreadydoneweb.com</div>
+      <div><span class="label">See</span> <span class="web">alreadydoneweb.com</span></div>
+    </div>
+    <div class="place">Fort Wayne &amp; northeast Indiana</div>
+  </div>
+  <div class="stamp">Already Done <small>✓ approved</small></div>
+</div>
+
+</body>
+</html>

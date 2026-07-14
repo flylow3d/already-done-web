@@ -48,6 +48,9 @@ Single killer landing page, no build step, GitHub Pages:
 - `css/style.css`
 - `assets/` — Gemini-generated imagery (device mockups built from real
   screenshots of the Nolt's site via --ref)
+- `print/` — business card: `business-card.html` (source of truth; edit +
+  re-render via headless Chrome), `already-done-business-card-PRINT.pdf`
+  (3.5×2 trim, ⅛" bleed, page 1 front / page 2 back), `preview.png`
 
 ## Image generation
 
