@@ -24,8 +24,11 @@ Business model (see `..\Website Business\` for private pricing docs):
 ## Brand
 
 - Name: **It's Already Done Web Co.** (short: Already Done)
-- Domain to buy when ready: alreadydoneweb.com (itsalreadydoneweb.com also free)
-- Contact shown on site: flylow3d@gmail.com (no phone yet)
+- Domain: **alreadydoneweb.com** — purchased July 2026, registered at Porkbun,
+  live as the GitHub Pages custom domain (HTTPS enforced, www works, old
+  github.io URL redirects). Email: joe@ forwards to flylow3d@gmail.com via
+  Porkbun forwarding + Gmail send-as; sarah@ also set up.
+- Contact shown on site: joe@alreadydoneweb.com · (260) 449-1236 (real number — include on all contact references)
 - Voice: confident, a little cheeky, zero agency jargon. The name is the
   pitch — every headline should sound like the work is finished because it is.
 - Design: warm cream paper, Fraunces serif, sign-painter green + stamp red,
@@ -62,5 +65,6 @@ Screenshots of finished client sites are the raw material — feed them as
 ## Deployment
 
 - Repo: `flylow3d/already-done-web` (public) · GitHub Pages from main root
-- Live: https://flylow3d.github.io/already-done-web/
-- Relative links only (subpath). Custom domain alreadydoneweb.com later.
+- Live: https://alreadydoneweb.com (custom domain since July 2026; the old
+  https://flylow3d.github.io/already-done-web/ URL redirects to it)
+- Relative links only.
