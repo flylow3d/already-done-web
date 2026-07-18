@@ -94,13 +94,14 @@ Screenshots of finished client sites are the raw material — feed them as
   Bait & Tackle (`big-ds-bait-and-tackle`, rugged lakeside outfitter),
   Waterloo Antique Mall (`waterloo-antique-mall`, nostalgic Americana),
   Addictions BodyArt (`addictions-bodyart`, neo-traditional flash art).
-- **Built, awaiting imagery (Gemini credits depleted — Joe must top up at
-  aistudio.google.com, then run `sh tools/batch.sh` in each folder):**
-  Cedar Creek Produce, The Pet Social. Pet Social is a KNOWING playbook
-  exception (they have a Google Sites site; pitch = upgrade of their own
-  pet-social.com), decided by Joe.
-- Portfolio on this site updated: 4 new .folio cards + screenshots, spec
-  count 14 → 18. Pitch sheets + how-to sheets + PDFs for the four shipped
-  sites; visit kit re-merged to 32 pages; playbook registry/styles/pitfalls
+- **Also shipped same session after Joe topped up Gemini credits:** Cedar
+  Creek Produce (`cedar-creek-produce`, sunny orchard almanac) and The Pet
+  Social (`the-pet-social`, friendly modern rounded — KNOWING playbook
+  exception: they have a Google Sites site on pet-social.com; pitch framed
+  as a friendly upgrade of their own domain, decided by Joe). **All six
+  builds live.**
+- Portfolio on this site updated twice: 6 new .folio cards + screenshots,
+  spec count 14 → 20. Pitch sheets + how-to sheets + PDFs for all six;
+  visit kit re-merged to 36 pages; playbook registry/styles/pitfalls
   updated (measure.mjs timing fix, Python now at C:\Python314, absolute
   paths for Edge --print-to-pdf, check assets/ after Gemini batches).
