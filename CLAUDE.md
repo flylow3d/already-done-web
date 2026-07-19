@@ -83,6 +83,28 @@ Screenshots of finished client sites are the raw material — feed them as
 
 ## Session Log
 
+### 2026-07-19 — Sandra D's Italian Garden: first structure-experiment build (#21)
+- Joe asked for one more spec build with a *completely different structure*
+  plus animations. Scouted 5 fresh verified targets (Auburn/Grabill/Garrett/
+  Hamilton); Joe picked **Sandra D's Italian Garden** (Auburn's #1-rated
+  restaurant; old domain dead & listed for sale — the pitch hook).
+- Built and shipped `sandra-ds-italian-garden`: a one-page scroll-story
+  ("an evening at Sandra D's") — no header, floating course-list dot nav,
+  sticky course scenes, self-drawing 25-year timeline, count-up stats,
+  review marquee, letter-stagger hero; all vanilla JS, reduced-motion safe.
+- Honesty rules: NO prices (menu photo is c.2019), no reservations/alcohol
+  claims (sources conflict), no personal email. Wine hallucinations edited
+  out of imagery; Gemini hit its spend cap mid-fix so the last two text
+  fixes were done with local PowerShell pixel surgery.
+- Portfolio: +1 folio card, count 20 → 21. Pitch sheet (RDAP same-day:
+  3 clean domains free; old exact-match = reseller, extra-cost row),
+  how-to sheet, kit re-merged to 38 pages, pitch book 19.
+- Tooling: `Website Business\tools\measure2.mjs` (fixed mobile measurer —
+  CSS-readiness poll, fresh profile, target-by-URL); fonts moved to <link>
+  (never @import — it blocks the whole stylesheet); playbook updated.
+- Gemini credits are EXHAUSTED (monthly spend cap) — no image generation
+  until Joe raises it at aistudio.google.com.
+
 ### 2026-07-17 — Six new spec builds (4 shipped) + Leo outreach draft
 - Drafted the first-ever client outreach message (Facebook Messenger, Leo
   Barber Shop, domain-for-sale hook) — Joe to send. Channel research showed
