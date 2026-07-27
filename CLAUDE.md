@@ -21,8 +21,11 @@ Business model (see `..\Website Business\` for private pricing docs):
 - Month-to-month, cancel anytime (service runs through the end of the paid
   month); client owns domain & content from day one, site source files free
   after six months of service (buyout quote before then)
-- First client/proof: Nolt's Marketplace (repo `nolts-marketplace`,
-  live at https://flylow3d.github.io/nolts-marketplace/)
+- Flagship spec build / proof: Nolt's Marketplace (repo `nolts-marketplace`,
+  live at https://flylow3d.github.io/nolts-marketplace/). NOT a client —
+  no business has signed yet; every portfolio site is an uncontacted or
+  in-progress prospect until Joe says otherwise. Joe tracks signed clients
+  here as they land.
 
 ## Brand
 
