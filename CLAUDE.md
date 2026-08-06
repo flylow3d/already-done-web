@@ -86,6 +86,26 @@ Screenshots of finished client sites are the raw material — feed them as
 
 ## Session Log
 
+### 2026-08-06 — The Lily Pad Boutique (spec #22, friend-of-Joe build)
+- Joe brought this one himself: friend **Jennifer Davis** is opening The
+  Lily Pad Boutique (home decor + outdoor decor + baby clothing) at
+  313 W Main St, Gas City. Brief: gear the site to the feeling of their
+  chandelier-over-the-pond Facebook brand art.
+- Built + shipped `the-lily-pad-boutique` — new personality **enchanted
+  twilight pond** (Great Vibes/Marcellus/Mulish, midnight indigo + gold +
+  lily blush, CSS firefly animation, first build art-directed by the
+  client's own artwork; Gemini imagery --ref'd to it). Gemini credits
+  RESET for August — generation works again.
+- Honesty: brand-new business, zero web footprint — no hours/phone/
+  opening date asserted ("opening soon — follow Facebook"). FB email
+  typo (`@yahoo.con`) NOT published; Joe to confirm .com with Jennifer.
+  Site links an FB *search* until Joe supplies the real page URL.
+- RDAP same-day: thelilypadboutique.com + 3 Gas City variants ALL free —
+  the exact-match being available is the pitch hook (7+ same-name
+  boutiques in other states outrank her).
+- Portfolio: +1 folio card, count 20 → 21 shown. Pitch sheet (1-pager),
+  how-to sheet, visit kit re-merged to 40 pages, pitch book to 20 pages.
+
 ### 2026-07-19 — Sandra D's Italian Garden: first structure-experiment build (#21)
 - Joe asked for one more spec build with a *completely different structure*
   plus animations. Scouted 5 fresh verified targets (Auburn/Grabill/Garrett/
