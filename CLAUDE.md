@@ -91,7 +91,10 @@ Screenshots of finished client sites are the raw material — feed them as
   Lily Pad Boutique (home decor + outdoor decor + baby clothing) at
   313 W Main St, Gas City. Brief: gear the site to the feeling of their
   chandelier-over-the-pond Facebook brand art.
-- Built + shipped `the-lily-pad-boutique` — new personality **enchanted
+- Built + shipped `lily-pad-boutique` (first repo `the-lily-pad-boutique`
+  got permanently wedged in GitHub's Pages deploy queue — uncancellable
+  zombie run; republished under the shorter name, Joe deletes the dead
+  repo himself) — new personality **enchanted
   twilight pond** (Great Vibes/Marcellus/Mulish, midnight indigo + gold +
   lily blush, CSS firefly animation, first build art-directed by the
   client's own artwork; Gemini imagery --ref'd to it). Gemini credits
